@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head language="en">
+	<meta charset="utf-8">
+	<title>俄罗斯方块</title>
+	<link rel="stylesheet" type="text/css" href="tetirs.css">
+</head>
+<body>
+	
+	<div id="box">
+		<div id="instruction">
+			<p id="biaoti">游戏操作介绍</p>
+			<p class="jieshao">按下加速下落</p>
+			<p class="jieshao">按上旋转方块</p>
+			<p class="jieshao">按左或者右移动</p>
+		</div>
+		<div id="nextblock">
+			<p>下一个方块是</p>
+			<table id="nextShow">	
+			</table>
+		</div>
+		<div id="header">
+			<button id="start">开始游戏</button>
+			<div id="score_box">分数:<span id="score"></span></div>
+		</div>
+		<table id="game">
+		</table>
+	</div>
+	<script src="tetirs.js"></script>
+</body>
+</html>

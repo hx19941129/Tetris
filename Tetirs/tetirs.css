@@ -1,0 +1,93 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#instruction{
+	position: absolute;
+	left: -150px;
+	top:0px;
+	border:1px solid black;
+	background: orange;
+}
+
+#biaoti{
+	text-align: center;
+	margin-bottom: 50px;
+	font
+}
+
+.jieshao{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#box{
+	margin: 20px auto;
+	width: 500px;
+	height: 850px;
+	border:1px solid black;
+	position: relative;
+}
+
+#start{
+	position: absolute;
+	left: 20px;
+	top: 10px;
+	cursor: pointer;
+	border:1px solid black;
+	background:gray;
+	color:black;
+	width: 200px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	font-size:25px;
+}
+
+#score_box{
+	position: absolute;
+	right: 20px;
+	top:10px;
+	border:1px solid black;
+	color:orange;
+	width: 200px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	font-size: 25px;
+}
+#game{
+	margin: 110px auto;
+	border-collapse: collapse;
+}
+
+#game td{
+	height: 40px;
+	width: 40px;
+	border:1px solid gray;
+	box-sizing: border-box;
+}
+
+#nextblock{
+	position: absolute;
+	right: -200px;
+	width: 150px;
+	height: 200px;
+	border:1px solid black;
+}
+
+#nextblock p{
+	text-align: center;
+}
+
+#nextblock table{
+	border-collapse: collapse;
+	margin: 40px auto;
+}
+
+#nextblock table td{
+	width: 30px;
+	height: 30px;
+	border:1px solid gray;
+	box-sizing: border-box;
+}
